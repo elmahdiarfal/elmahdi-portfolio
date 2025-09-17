@@ -135,13 +135,16 @@ export function Projects() {
                         <Button
                           size="sm"
                           className="gap-2"
-                          as="a"
-                          href={project.github}
-                          target="_blank"
-                          rel="noopener noreferrer"
                         >
-                          <ExternalLink className="h-4 w-4" />
-                          View Details
+                          <a
+                            href={project.github}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-primary text-white hover:bg-primary/80 transition-colors text-sm font-medium"
+                          >
+                            <ExternalLink className="h-4 w-4" />
+                            View Details
+                          </a>
                         </Button>
                       </div>
                     </CardContent>

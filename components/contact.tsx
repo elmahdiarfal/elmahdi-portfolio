@@ -43,13 +43,13 @@ export function Contact() {
     {
       icon: <Linkedin className="h-5 w-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/elmahdi-arfal",
+      href: "https://www.linkedin.com/in/el-mahdi-arfal-5a5284294/",
       color: "hover:bg-blue-600",
     },
     {
       icon: <Github className="h-5 w-5" />,
       label: "GitHub",
-      href: "https://github.com/elmahdi-arfal",
+      href: "https://github.com/elmahdiarfal/",
       color: "hover:bg-gray-800",
     },
   ]
