@@ -25,7 +25,7 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 - **Deployment**: Vercel
 
 ## 📁 Project Structure
-\`\`\`
+```
 📦 portfolio-app
 ├── 📁 app
 │   ├── layout.tsx           # Root layout with SEO metadata
@@ -49,7 +49,7 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 │   └── El-Mahdi-ARFAL-Resume.pdf  # Downloadable resume
 └── 📁 lib
     └── utils.ts            # Utility functions
-\`\`\`
+```
 
 ## 🎨 Design System
 
