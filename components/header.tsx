@@ -25,14 +25,15 @@ export function Header() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
-  const handleResumeDownload = () => {
-    // Create a link to download the resume
-    const link = document.createElement("a")
-    link.href = "./public/El-Mahdi-ARFAL-Resume.pdf"
-    link.download = "El-Mahdi-ARFAL-Resume.pdf"
-    link.click()
-  }
-
+const handleResumeDownload = () => {
+  const filename = "/El-Mahdi-ARFAL-Resume.pdf" // <-- public/ files are served at root
+  const link = document.createElement("a")
+  link.href = filename
+  link.target = "_blank"              // open in new tab (helps on some browsers)
+  link.rel = "noopener noreferrer"
+  link.download = "El-Mahdi-ARFAL-Resume.pdf"
+  link.click()
+}
   return (
     <header
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
