@@ -15,7 +15,7 @@ export function Projects() {
       technologies: ["Open5gs", "UERANSIM", "MongoDB", "Bash Scripting", "VMware", "Ubuntu Server"],
       category: "Final-Year Project",
       icon: <Network className="h-6 w-6" />,
-      image: "/5g-network-infrastructure-diagram-with-multiple-co.jpg",
+      image: "/Virtual 5G Network.png",
       highlights: [
         "Full-Stack Network Engineer role",
         "End-to-end 5G connectivity",
@@ -26,13 +26,13 @@ export function Projects() {
     {
       title: "Dual-VPC Cloud Infrastructure on AWS",
       description:
-        "Designed and deployed an isolated cloud environment with 2 VPCs, public/private subnets, ACLs, Security Groups, Internet & NAT Gateways, VPC Peering, S3 Endpoints, and CloudWatch VPC Flow Logs.",
+        "Designed and deployed an isolated cloud environment with 2 VPCs, public/private subnets, ACLs, Security Groups, Internet & NAT Gateways, VPC Peering, S3 Endpoints, and CloudWatch VPC Flow Logs using Terraform.",
       longDescription:
         "Fully automated infrastructure provisioning and management using Terraform, ensuring reproducibility and scalability. Implemented comprehensive security measures and monitoring solutions for enterprise-grade cloud architecture.",
       technologies: ["AWS", "Terraform", "VPC", "CloudWatch", "S3", "IAC"],
       category: "Personal Project",
       icon: <Cloud className="h-6 w-6" />,
-      image: "/aws-cloud-architecture-diagram-with-vpcs-and-netwo.jpg",
+      image: "/AWS Cloud Infrastructure automated with terraform.png",
       highlights: ["Infrastructure as Code", "Multi-VPC architecture", "Automated provisioning", "Enterprise security"],
     },
     {
@@ -44,7 +44,7 @@ export function Projects() {
       technologies: ["Cisco Packet Tracer", "OSPF", "HSRP", "STP", "VLAN", "ACLs"],
       category: "Personal Project",
       icon: <Shield className="h-6 w-6" />,
-      image: "/enterprise-network-topology-diagram-with-multiple-.jpg",
+      image: "/Bank Network Infra Architecture.png",
       highlights: [
         "Multi-tier architecture",
         "Network segmentation",
