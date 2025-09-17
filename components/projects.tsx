@@ -20,7 +20,7 @@ export function Projects() {
         "Full-Stack Network Engineer role",
         "End-to-end 5G connectivity",
         "Network slicing implementation",
-        "Real-time monitoring system",
+       // "Real-time monitoring system",
       ],
     },
     {
@@ -131,19 +131,21 @@ export function Projects() {
                       </div>
 
                       {/* Action Buttons */}
-                      <div className="flex gap-3 pt-2">
-                        <Button>
-                          <a
-                            href={project.github}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-primary text-white hover:bg-primary/80 transition-colors text-sm font-medium"
-                          >
-                            <ExternalLink className="h-4 w-4" />
-                            View Details
-                          </a>
-                        </Button>
-                      </div>
+                      {project.github && (
+                        <div className="flex gap-3 pt-2">
+                          <Button>
+                            <a
+                              href={project.github}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-primary text-white hover:bg-primary/80 transition-colors text-sm font-medium"
+                            >
+                              <ExternalLink className="h-4 w-4" />
+                              View Details
+                            </a>
+                          </Button>
+                        </div>
+                      )}
                     </CardContent>
                   </div>
                 </div>
