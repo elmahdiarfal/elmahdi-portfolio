@@ -28,7 +28,7 @@ export function Header() {
   const handleResumeDownload = () => {
     // Create a link to download the resume
     const link = document.createElement("a")
-    link.href = "/El-Mahdi-ARFAL-Resume.pdf"
+    link.href = "./public/El-Mahdi-ARFAL-Resume.pdf"
     link.download = "El-Mahdi-ARFAL-Resume.pdf"
     link.click()
   }

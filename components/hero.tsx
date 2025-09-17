@@ -54,9 +54,9 @@ export function Hero() {
           {/* Tagline */}
           <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
             Empowering Networks with Cloud Solutions. Specializing in{" "}
-            <span className="text-primary font-semibold">5G Networks</span>,{" "}
-            <span className="text-primary font-semibold">AWS Cloud Infrastructure</span>, and{" "}
-            <span className="text-primary font-semibold">DevOps</span> technologies.
+            <span className="text-primary font-semibold">Cisco Networking</span>,{" "}
+            <span className="text-primary font-semibold">AWS Cloud Networking</span>, and{" "}
+            <span className="text-primary font-semibold">Automation</span> technologies.
           </p>
 
           {/* Location */}
@@ -84,7 +84,7 @@ export function Hero() {
           {/* Social Links */}
           <div className="flex justify-center gap-6 mb-12">
             <a
-              href="https://linkedin.com/in/elmahdi-arfal"
+              href="https://www.linkedin.com/in/el-mahdi-arfal-5a5284294/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
@@ -93,7 +93,7 @@ export function Hero() {
               <Linkedin className="h-6 w-6 group-hover:scale-110 transition-transform" />
             </a>
             <a
-              href="https://github.com/elmahdi-arfal"
+              href="https://github.com/elmahdiarfal/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
