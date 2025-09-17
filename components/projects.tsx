@@ -149,7 +149,7 @@ export function Projects() {
                       )}
                     </CardContent>
                   </div>
-                </div>
+
               </Card>
             ))}
           </div>
