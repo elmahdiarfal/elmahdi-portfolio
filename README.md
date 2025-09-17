@@ -45,7 +45,7 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 │   ├── footer.tsx           # Site footer
 │   └── 📁 ui               # Reusable UI components
 ├── 📁 public
-│   ├── *.jpeg              # Project images and profile photo
+│   ├── *.jpg               # Project images and profile photo
 │   └── El-Mahdi-ARFAL-Resume.pdf  # Downloadable resume
 └── 📁 lib
     └── utils.ts            # Utility functions
