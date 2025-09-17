@@ -77,14 +77,15 @@ export function Projects() {
               >
                 <div className="grid lg:grid-cols-2 gap-0">
                   {/* Project Image */}
-                  <div className="relative h-64 lg:h-auto">
+                  <div className="relative h-64 lg:h-auto bg-black/5 flex items-center justify-center">
                     <Image
                       src={project.image || "/placeholder.svg"}
                       alt={project.title}
                       fill
-                      className="object-cover"
+                      className="object-contain"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                  </div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                   </div>
 
                   {/* Project Content */}
