@@ -132,10 +132,7 @@ export function Projects() {
 
                       {/* Action Buttons */}
                       <div className="flex gap-3 pt-2">
-                        <Button
-                          size="sm"
-                          className="gap-2"
-                        >
+                        <Button>
                           <a
                             href={project.github}
                             target="_blank"
