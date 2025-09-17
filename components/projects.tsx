@@ -132,7 +132,14 @@ export function Projects() {
 
                       {/* Action Buttons */}
                       <div className="flex gap-3 pt-2">
-                        <Button size="sm" className="gap-2">
+                        <Button
+                          size="sm"
+                          className="gap-2"
+                          as="a"
+                          href={project.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <ExternalLink className="h-4 w-4" />
                           View Details
                         </Button>

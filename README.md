@@ -27,27 +27,28 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 ## 📁 Project Structure
 
 \`\`\`
-├── app/
-│   ├── layout.tsx          # Root layout with SEO metadata
-│   ├── page.tsx            # Main portfolio page
-│   ├── globals.css         # Global styles and design tokens
-│   ├── sitemap.ts          # SEO sitemap generation
-│   └── robots.ts           # Search engine robots configuration
-├── components/
-│   ├── header.tsx          # Navigation header with resume download
-│   ├── hero.tsx            # Hero section with introduction
-│   ├── about.tsx           # About section with personal info
-│   ├── education.tsx       # Education background
-│   ├── experience.tsx      # Professional experience
-│   ├── skills.tsx          # Technical skills showcase
-│   ├── projects.tsx        # Featured projects gallery
-│   ├── contact.tsx         # Contact form and information
-│   ├── footer.tsx          # Site footer
-│   └── ui/                 # Reusable UI components
-├── public/
-│   ├── *.jpg               # Project images and profile photo
+📦 portfolio-app
+├── 📁 app
+│   ├── layout.tsx           # Root layout with SEO metadata
+│   ├── page.tsx             # Main portfolio page
+│   ├── globals.css          # Global styles and design tokens
+│   ├── sitemap.ts           # SEO sitemap generation
+│   └── robots.ts            # Search engine robots configuration
+├── 📁 components
+│   ├── header.tsx           # Navigation header with resume download
+│   ├── hero.tsx             # Hero section with introduction
+│   ├── about.tsx            # About section with personal info
+│   ├── education.tsx        # Education background
+│   ├── experience.tsx       # Professional experience
+│   ├── skills.tsx           # Technical skills showcase
+│   ├── projects.tsx         # Featured projects gallery
+│   ├── contact.tsx          # Contact form and information
+│   ├── footer.tsx           # Site footer
+│   └── 📁 ui               # Reusable UI components
+├── 📁 public
+│   ├── *.jpeg              # Project images and profile photo
 │   └── El-Mahdi-ARFAL-Resume.pdf  # Downloadable resume
-└── lib/
+└── 📁 lib
     └── utils.ts            # Utility functions
 \`\`\`
 
