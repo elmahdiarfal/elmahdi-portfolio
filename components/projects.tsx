@@ -25,6 +25,7 @@ export function Projects() {
     },
     {
       title: "Dual-VPC Cloud Infrastructure on AWS",
+      github: "https://github.com/elmahdiarfal/CloudNet---Dual-VPC-Cloud-Infrastructure",
       description:
         "Designed and deployed an isolated cloud environment with 2 VPCs, public/private subnets, ACLs, Security Groups, Internet & NAT Gateways, VPC Peering, S3 Endpoints, and CloudWatch VPC Flow Logs using Terraform.",
       longDescription:
@@ -37,6 +38,7 @@ export function Projects() {
     },
     {
       title: "Bank Network Infrastructure",
+      github: "https://github.com/elmahdiarfal/Bank-Network",
       description:
         "Designed and implemented a multi-tier network architecture for 11 departments with full segmentation using subnets and VLANs using Cisco Packet Tracer.",
       longDescription:
@@ -133,10 +135,6 @@ export function Projects() {
                         <Button size="sm" className="gap-2">
                           <ExternalLink className="h-4 w-4" />
                           View Details
-                        </Button>
-                        <Button variant="outline" size="sm" className="gap-2 bg-transparent">
-                          <Github className="h-4 w-4" />
-                          Source Code
                         </Button>
                       </div>
                     </CardContent>
