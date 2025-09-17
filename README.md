@@ -25,7 +25,6 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 - **Deployment**: Vercel
 
 ## 📁 Project Structure
-
 \`\`\`
 📦 portfolio-app
 ├── 📁 app
