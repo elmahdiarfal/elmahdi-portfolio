@@ -84,8 +84,7 @@ export function Projects() {
                       fill
                       className="object-contain"
                     />
-                  </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                   </div>
 
                   {/* Project Content */}
@@ -149,7 +148,7 @@ export function Projects() {
                       )}
                     </CardContent>
                   </div>
-
+                </div>
               </Card>
             ))}
           </div>
