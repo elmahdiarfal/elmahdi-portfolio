@@ -46,16 +46,13 @@ export function About() {
               <div className="prose prose-lg max-w-none">
                 <p className="text-foreground leading-relaxed">
                   I'm an engineering student at the National Institute of Posts and Telecommunications (INPT) in Rabat,
-                  specializing in Smart Information and Communication Technology with a focus on computer networking.
+                  specializing in Smart Information and Communication Technology with a strong focus on Cisco networking technologies.
                 </p>
                 <p className="text-foreground leading-relaxed">
-                  My expertise spans from traditional networking protocols to cutting-edge cloud infrastructure, with
-                  hands-on experience in 5G network deployment, AWS cloud architecture, and DevOps automation. I'm
-                  passionate about creating scalable, secure network solutions that drive digital transformation.
+                  My expertise centers on configuring and managing Cisco routers and switches, designing robust enterprise networks, and implementing advanced routing and switching solutions and automation using Ansible. I also have hands-on experience in cloud networking using AWS, leveraging automation tools like Terraform to streamline infrastructure deployment and management.
                 </p>
                 <p className="text-foreground leading-relaxed">
-                  Currently seeking an end-of-studies internship (PFE) to apply my skills in real-world projects and
-                  contribute to innovative networking solutions in a professional environment.
+                  Additionally, I have practical exposure to 5G network concepts and deployment. I am currently seeking an end-of-studies internship (PFE) to apply my skills in real-world projects and contribute to innovative networking solutions in a professional environment.
                 </p>
               </div>
 

@@ -22,7 +22,7 @@ export function Hero() {
           <div className="mb-8">
             <div className="relative w-32 h-32 mx-auto mb-6">
               <Image
-                src="/professional-headshot-of-a-young-moroccan-engineer.jpg"
+                src="/Profile.jpeg"
                 alt="El Mahdi ARFAL - Cloud Networking Engineer"
                 fill
                 className="rounded-full object-cover border-4 border-primary/20"

@@ -81,7 +81,7 @@ export function Contact() {
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Get In Touch</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Ready to contribute to innovative networking projects. Let's discuss opportunities and collaborations.
+              Ready to contribute to innovative networking projects.
             </p>
           </div>
 
@@ -133,7 +133,7 @@ export function Contact() {
                   <div className="flex items-center gap-3 mb-3">
                     <Badge variant="secondary" className="px-3 py-1">
                       <div className="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></div>
-                      Available
+                      Available starting January 17h, 2025
                     </Badge>
                   </div>
                   <h4 className="font-semibold text-foreground mb-2">Seeking Internship Opportunities</h4>
@@ -144,89 +144,6 @@ export function Contact() {
                 </CardContent>
               </Card>
             </div>
-
-            {/* Contact Form */}
-            <Card className="border-border/50">
-              <CardHeader>
-                <CardTitle className="text-xl text-foreground">Send a Message</CardTitle>
-                <p className="text-muted-foreground text-sm">
-                  Fill out the form below and I'll get back to you as soon as possible.
-                </p>
-              </CardHeader>
-              <CardContent>
-                <form onSubmit={handleSubmit} className="space-y-4">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div>
-                      <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                        Name
-                      </label>
-                      <Input
-                        id="name"
-                        name="name"
-                        type="text"
-                        value={formData.name}
-                        onChange={handleInputChange}
-                        placeholder="Your full name"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                        Email
-                      </label>
-                      <Input
-                        id="email"
-                        name="email"
-                        type="email"
-                        value={formData.email}
-                        onChange={handleInputChange}
-                        placeholder="your.email@example.com"
-                        required
-                      />
-                    </div>
-                  </div>
-
-                  <div>
-                    <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">
-                      Subject
-                    </label>
-                    <Input
-                      id="subject"
-                      name="subject"
-                      type="text"
-                      value={formData.subject}
-                      onChange={handleInputChange}
-                      placeholder="What's this about?"
-                      required
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                      Message
-                    </label>
-                    <Textarea
-                      id="message"
-                      name="message"
-                      value={formData.message}
-                      onChange={handleInputChange}
-                      placeholder="Tell me about your project or opportunity..."
-                      rows={5}
-                      required
-                    />
-                  </div>
-
-                  <Button type="submit" className="w-full gap-2">
-                    <Send className="h-4 w-4" />
-                    Send Message
-                  </Button>
-
-                  <p className="text-xs text-muted-foreground text-center">
-                    This will open your default email client with the message pre-filled.
-                  </p>
-                </form>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </div>

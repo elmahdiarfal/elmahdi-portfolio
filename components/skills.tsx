@@ -122,23 +122,6 @@ export function Skills() {
               ))}
             </div>
 
-            {/* Proficiency Levels */}
-            <div className="space-y-6">
-              <h3 className="text-2xl font-semibold text-foreground mb-6">Proficiency Levels</h3>
-              <Card className="border-border/50">
-                <CardContent className="p-6 space-y-6">
-                  {proficiencyLevels.map((item, index) => (
-                    <div key={index} className="space-y-2">
-                      <div className="flex justify-between items-center">
-                        <span className="font-medium text-foreground">{item.skill}</span>
-                        <span className="text-sm text-muted-foreground">{item.level}%</span>
-                      </div>
-                      <Progress value={item.level} className="h-2" />
-                    </div>
-                  ))}
-                </CardContent>
-              </Card>
-
               {/* Additional Info */}
               <Card className="border-border/50 bg-gradient-to-br from-primary/5 to-secondary/5">
                 <CardContent className="p-6">
@@ -153,7 +136,6 @@ export function Skills() {
             </div>
           </div>
         </div>
-      </div>
     </section>
   )
 }

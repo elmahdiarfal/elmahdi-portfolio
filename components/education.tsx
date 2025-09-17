@@ -8,19 +8,17 @@ export function Education() {
     location: "Rabat, Morocco",
     degree: "Smart Information and Communication Technology (SMART-ICT)",
     period: "2023 – Expected 2026",
-    concentration: "Computer Networking",
+    concentration: "Computer Networking & Telecommunications",
     description:
-      "Comprehensive program covering advanced networking technologies, cloud computing, and telecommunications systems with hands-on laboratory experience and industry partnerships.",
+      "Comprehensive program covering networking technologies, cloud computing, and telecommunications systems.",
   }
 
   const keySubjects = [
     "Network Protocols & Architecture",
     "Cloud Computing & Virtualization",
-    "5G & Mobile Networks",
+    "3G, 4G & 5G Mobile Networks",
     "Network Security",
-    "Software-Defined Networking",
     "IoT & Smart Systems",
-    "DevOps & Automation",
     "Data Communications",
   ]
 
