@@ -37,7 +37,7 @@ export function Projects() {
       highlights: ["Infrastructure as Code", "Multi-VPC architecture", "Automated provisioning", "Enterprise security"],
     },
     {
-      title: "Bank Network Infrastructure",
+      title: "Enterprise Network Infrastructure",
       github: "https://github.com/elmahdiarfal/Bank-Network",
       description:
         "Designed and implemented a multi-tier network architecture for 11 departments with full segmentation using subnets and VLANs using Cisco Packet Tracer.",

@@ -7,7 +7,7 @@ export function Experience() {
     company: "Orange Business Maroc",
     location: "Rabat, Morocco",
     position: "Full-Stack Developer Intern",
-    period: "February 2025 – June 2025",
+    period: "February 2025 – May 2025",
     type: "Internship",
     achievements: [
       "Collaborated in a development team with other interns to design and implement a malware detection platform",
