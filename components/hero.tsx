@@ -84,7 +84,7 @@ export function Hero() {
           {/* Social Links */}
           <div className="flex justify-center gap-6 mb-12">
             <a
-              href="https://www.linkedin.com/in/el-mahdi-arfal-5a5284294/"
+              href="https://www.linkedin.com/in/el-mahdi-arfal/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
